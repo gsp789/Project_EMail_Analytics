@@ -1,0 +1,40 @@
+(0)
+	Refactor/Rewrite code with testing in mind
+
+RH & KL
+DONE - (1) Related to user story 1
+	Set up a database for our email data
+
+RR & DH
+(2) Related to user story 1
+	Search email database by:
+		sender
+		recievers
+		time email was sent
+		subject line
+
+RH
+DONE - (3) Related to user story 1
+	Identify the individuals sending and receiving emails rather than just the emails:
+		Parse data into person model
+
+KL
+DONE - (4) Related to user story 1
+
+	Load entire archive into database:
+		Persons
+			- inbox
+			- sent
+			- deleted
+			- contacts
+		Emails
+
+PG & SH & CR
+(5)
+	Research - machine learning, particularly how to do things with graph databases
+		- Resources: Neo4J website
+		- Email analytics
+
+PG & SH & CR
+(6)
+	Integration of UI with backend.

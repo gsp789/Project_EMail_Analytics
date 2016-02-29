@@ -1,0 +1,42 @@
+Team Name: Gooey GUI Guys [formerly NoName]
+Team Members:
+	- Kenny Loveall
+	- Ryan Hornik
+	- Ryan Rodriguez
+	- Dang Huynh
+	- Samuel Huang
+	- Chris Robinson
+	- Sai Praveen
+Project: Chevron - Email Analysis
+Sponsor: Shuxing Cheng
+
+1. Import data from file
+	- Read all emails
+	- Create objects representing each person
+		- Name
+		- Email address
+		- Contacts
+		- Sent Emails
+		- Recieved Emails
+		- Deleted Emails
+	- Create objects representing each email
+		- To
+		- From
+		- CC
+		- BCC
+		- Time sent
+		- Contents
+		- Attatchments
+2. Build organization network of employees
+	- Connect employees based on exchanged emails, presence in contacts lists
+		- Weight edges on that graph with some heuristic
+3. Time Frequency Pattern Analysis
+	- Analyze when emails where sent to look for bad behavior patterns
+4. List persons contacts after a specific time
+	- Related to above. See who sends emails to whom at different times of day
+	- Does this help find unethical, or illegal behaviour
+5. Text analytics on content
+	- Analyze words used to detect any patterns
+6. Visualization of social graph
+	- 2 dimensional visualization of graph created in "Build organization network of employees"
+
